@@ -1,0 +1,172 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: black;
+}
+
+.logo-id{
+    padding: 2rem;
+}
+
+.logo-id img{
+    margin: auto;
+    display: block;
+}
+
+.nav-bar{
+    color: azure;
+    border-top: 1px solid rgb(168, 168, 73);
+    border-bottom: 1px solid rgb(168, 168, 73) ;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0rem 1.5rem;
+}
+
+.container{
+    padding: 3.5rem 0.4rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container .card{
+    text-align: center;
+    padding: 0rem 0.4rem;
+}
+.container .card-img{
+    text-align: center;
+    width: 35rem;
+}
+
+#pic-png{
+    width: 20rem;
+}
+
+#pic-png-div{
+    width: 20rem;
+}
+.container button{
+    font-size: 1rem;
+    width: 3.3rem;
+    height: 4rem;
+}
+
+.container .card h2{
+    color: wheat;
+    font-size: 0.5rem;
+}
+.container .card p{
+    color: wheat;
+    font-size: 0.8rem;
+}
+
+.container p{
+    line-height: 0.6rem;
+    font-size: 0.5rem;
+    color: wheat;
+    word-spacing: 5px;
+}
+hr{
+    border-style: double;
+    border-width: 3px;
+    color: wheat;
+}
+
+.nav-bar-footer{
+    color: aliceblue;
+}
+
+.nav-bar-footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0px 8rem;
+    color: wheat;
+}
+
+footer{
+    color: azure;
+    bottom: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1rem;
+}
+.sp1{
+    color: wheat;
+
+}
+
+
+@media screen and (max-width: 412px) {
+    .container p{
+        font-size: 0.5rem;
+        line-height: 0.5rem;
+    }
+    .container .card h2{
+        color: wheat;
+        font-size: 0.7rem;
+    }
+    .container .card p{
+        color: wheat;
+        font-size: 0.5rem;
+    }
+    #pic-png{
+        width: 10rem;
+    }
+    
+    #pic-png-div{
+        width: 10rem;
+    }
+    .container button{
+        font-size: 0.45rem;
+        width: 3.5rem;
+        height: 1.4rem;
+        background-color: wheat;
+    }
+    .nav-bar-footer ul{
+        font-size: 0.5rem;
+        display: flex;
+        justify-content:  space-around;
+        
+    }
+    footer{
+    color: azure;
+    bottom: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 0.5rem;
+}
+    
+  }
+
+@media screen and (min-width: 820px) {
+    .container p{
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+    .container .card h2{
+        color: wheat;
+        font-size: 1.5rem;
+    }
+    .container .card p{
+        color: wheat;
+        font-size: 0.8rem;
+    }
+    .container button{
+        font-size: 1.1rem;
+        width: 8rem;
+        height: 3rem;
+        background-color: wheat;
+    
+    
+  }
+
+}
